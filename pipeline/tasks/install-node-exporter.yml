@@ -11,5 +11,8 @@ inputs:
 - name: pcf-prometheus-pipeline
 - name: pcf-bosh-creds
 
+params:
+  director_for_deployment: 
+    
 run:
   path: pcf-prometheus-pipeline/pipeline/tasks/install-node-exporter.sh
